@@ -110,8 +110,6 @@ let currentPageIndex = 0;
    Repository: man2kudus
    ===================================================== */
 
-const IMAGE_BASE = "./";
-
 
 function renderPage(index) {
 
@@ -132,8 +130,7 @@ function renderPage(index) {
   const imageElement =
     document.getElementById("page-image");
 
-  imageElement.src =
-    IMAGE_BASE + encodeURIComponent(page.image);
+  imageElement.src = page.image;
 
   imageElement.alt =
     page.heading;
