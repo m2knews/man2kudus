@@ -1,5 +1,6 @@
 const newsData = {
   title: "MBG MAN 2 Kudus: Suka atau Kurang Selera?",
+
   pages: [
     {
       pageNumber: 1,
@@ -7,7 +8,7 @@ const newsData = {
       image: "WhatsApp Image 2026-09-01 at 7.45.38 PM.jpeg",
       content: `Bel istirahat pertama berbunyi, menandai waktunya siswa MAN 2 Kudus menikmati Makan Bergizi Gratis (MBG). Sebelum makanan dibagikan ke kelas, siswa yang mendapat tugas piket mengambil ompreng yang telah disiapkan di depan ruang makan boarding. Pada kesempatan yang sama, mereka juga menyerahkan hasil sedekah yang telah dikumpulkan dari teman-teman sekelas.
 
-      MBG tiba di sekolah pada pagi hari, sekitar pukul 07.30–08.00 WIB, dengan jumlah makanan yang dikirim secara bertahap. Pengiriman pertama membawa sekitar 980 porsi, sedangkan pengiriman kedua sekitar 700 porsi untuk memenuhi kebutuhan siswa.
+MBG tiba di sekolah pada pagi hari, sekitar pukul 07.30–08.00 WIB, dengan jumlah makanan yang dikirim secara bertahap. Pengiriman pertama membawa sekitar 980 porsi, sedangkan pengiriman kedua sekitar 700 porsi untuk memenuhi kebutuhan siswa.
 
 Setelah bel istirahat pertama berbunyi, siswa piket mengambil ompreng sesuai kebutuhan kelas dan membawanya ke ruang kelas. Makanan kemudian dibagikan dan siswa mulai menikmati menu yang tersedia.
 
@@ -17,6 +18,7 @@ Namun, pengalaman siswa terhadap MBG tidak selalu sama. Ada yang menyukai menu y
 
 Di balik satu ompreng MBG, terdapat cerita tentang kebersamaan, penghematan uang saku, pemenuhan asupan makanan, hingga perbedaan selera siswa. Setelah kegiatan makan selesai, rantang atau ompreng yang telah digunakan kemudian dikembalikan pada istirahat kedua, dengan proses pengembalian berlangsung sekitar pukul 14.00 hingga selesai.`
     },
+
     {
       pageNumber: 2,
       heading: "Satu Ompreng untuk Teman, Satu Istirahat untuk Bersama",
@@ -35,13 +37,12 @@ Namun, pengalaman menikmati MBG tidak selalu sama bagi setiap siswa. Selera terh
 
 Setelah waktu makan berakhir, siswa kembali melanjutkan kegiatan belajar. Sementara ompreng yang telah digunakan nantinya dikembalikan sesuai jadwal yang telah ditentukan.`
     },
+
     {
       pageNumber: 3,
       heading: "Dari Ompreng ke Meja Kelas, MBG Diharapkan Penuhi Gizi",
       image: "WhatsApp Image 2026-09-01 at 7.45.39 PM.jpeg",
-      content: `Dari Ompreng ke Meja Kelas, MBG Diharapkan Penuhi Gizi
-
-MBG tidak hanya hadir sebagai makanan pengganjal lapar di tengah aktivitas sekolah. Makanan yang dibagikan diharapkan dapat menjadi bagian dari asupan siswa setelah mengikuti pembelajaran sejak pagi.
+      content: `MBG tidak hanya hadir sebagai makanan pengganjal lapar di tengah aktivitas sekolah. Makanan yang dibagikan diharapkan dapat menjadi bagian dari asupan siswa setelah mengikuti pembelajaran sejak pagi.
 
 Menu yang disajikan dalam ompreng terdiri atas beberapa jenis makanan. Kehadiran makanan dengan beragam komponen tersebut diharapkan dapat membantu memenuhi kebutuhan asupan siswa selama berada di sekolah.
 
@@ -55,13 +56,12 @@ Meski demikian, MBG bukan satu-satunya sumber pemenuhan kebutuhan gizi siswa. Po
 
 Bagi siswa MAN 2 Kudus, satu ompreng MBG menjadi bagian dari rutinitas yang mempertemukan kebutuhan makan, waktu istirahat, dan kebersamaan di sekolah.`
     },
+
     {
       pageNumber: 4,
       heading: "Ada yang Lahap, Ada yang Kurang Selera",
       image: "WhatsApp Image 2026-09-01 at 7.45.39 PM (1).jpeg",
-      content: `Ada yang Lahap, Ada yang Kurang Selera
-
-Tidak semua siswa memberikan respons yang sama terhadap menu MBG. Perbedaan selera membuat makanan yang disukai seorang siswa belum tentu menjadi favorit bagi siswa lainnya.
+      content: `Tidak semua siswa memberikan respons yang sama terhadap menu MBG. Perbedaan selera membuat makanan yang disukai seorang siswa belum tentu menjadi favorit bagi siswa lainnya.
 
 Sebagian siswa terlihat menikmati hidangan yang tersedia. Mereka menyantap makanan bersama teman dan menghabiskan menu yang sesuai dengan selera mereka.
 
@@ -75,13 +75,12 @@ Karena itu, variasi menu menjadi salah satu hal yang dapat diperhatikan agar mak
 
 Pada akhirnya, manfaat makanan akan lebih terasa apabila menu yang diberikan dapat diterima dan dikonsumsi oleh siswa.`
     },
+
     {
       pageNumber: 5,
       heading: "MBG Usai, Ompreng Kembali: Cerita Berlanjut Setelah Istirahat",
       image: "WhatsApp Image 2026-09-16 at 11.24.19.jpeg",
-      content: `MBG Usai, Ompreng Kembali: Cerita Berlanjut Setelah Istirahat
-
-Setelah siswa selesai menikmati MBG, kegiatan tidak berhenti begitu saja. Ompreng atau rantang yang telah digunakan perlu dikembalikan sesuai jadwal yang telah ditentukan.
+      content: `Setelah siswa selesai menikmati MBG, kegiatan tidak berhenti begitu saja. Ompreng atau rantang yang telah digunakan perlu dikembalikan sesuai jadwal yang telah ditentukan.
 
 Pengembalian dilakukan pada istirahat kedua, dengan proses yang berlangsung sekitar pukul 14.00 hingga selesai. Dengan demikian, setelah digunakan untuk menyajikan makanan pada istirahat pertama, rantang kembali dikumpulkan agar dapat dikembalikan kepada pihak yang bertugas.
 
@@ -106,59 +105,131 @@ Setelah waktu istirahat selesai dan ompreng dikembalikan, siswa kembali pada keg
 
 let currentPageIndex = 0;
 
+/* =====================================================
+   GITHUB PAGES
+   Repository: man2kudus
+   ===================================================== */
+
+const IMAGE_BASE =
+  "https://tabahiqbalanugrah8-cmyk.github.io/man2kudus/";
+
+
 function renderPage(index) {
+
   const page = newsData.pages[index];
 
-  // Render Header Utama
-  document.getElementById("news-title").innerText = newsData.title;
-  document.getElementById("news-lead").innerText = newsData.lead;
+  // Judul utama
+  document.getElementById("news-title").innerText =
+    newsData.title;
 
-  // Render Konten Halaman
-  document.getElementById("page-heading").innerText = page.heading;
-  document.getElementById("page-image").src = page.image;
-  document.getElementById("page-caption").innerText = page.caption;
-  document.getElementById("page-body").innerText = page.content;
+  // Hilangkan undefined
+  document.getElementById("news-lead").innerText = "";
 
-  // Render Angka Pagination (1, 2, 3, 4, 5)
-  const pageNumbersContainer = document.getElementById("page-numbers");
+  // Judul halaman
+  document.getElementById("page-heading").innerText =
+    page.heading;
+
+  // Gambar
+  const imageElement =
+    document.getElementById("page-image");
+
+  imageElement.src =
+    IMAGE_BASE + encodeURIComponent(page.image);
+
+  imageElement.alt =
+    page.heading;
+
+  // Hilangkan undefined pada caption
+  document.getElementById("page-caption").innerText = "";
+
+  // Isi berita
+  document.getElementById("page-body").innerText =
+    page.content;
+
+
+  // Pagination
+  const pageNumbersContainer =
+    document.getElementById("page-numbers");
+
   pageNumbersContainer.innerHTML = "";
-  
+
   newsData.pages.forEach((_, i) => {
+
     const btn = document.createElement("span");
+
     btn.classList.add("page-num");
-    if (i === index) btn.classList.add("active");
+
+    if (i === index) {
+      btn.classList.add("active");
+    }
+
     btn.innerText = i + 1;
+
     btn.onclick = () => goToPage(i);
+
     pageNumbersContainer.appendChild(btn);
+
   });
 
-  // State Tombol Prev/Next
-  document.getElementById("btn-prev").disabled = index === 0;
-  document.getElementById("btn-next").disabled = index === newsData.pages.length - 1;
 
-  // Scroll otomatis ke judul halaman
-  document.getElementById("page-heading").scrollIntoView({ behavior: 'smooth' });
+  // Tombol Prev
+  document.getElementById("btn-prev").disabled =
+    index === 0;
+
+  // Tombol Next
+  document.getElementById("btn-next").disabled =
+    index === newsData.pages.length - 1;
+
+
+  // Scroll ke judul
+  document
+    .getElementById("page-heading")
+    .scrollIntoView({
+      behavior: "smooth"
+    });
 }
+
 
 function goToPage(index) {
+
   currentPageIndex = index;
+
   renderPage(currentPageIndex);
 }
+
 
 function prevPage() {
+
   if (currentPageIndex > 0) {
+
     currentPageIndex--;
+
     renderPage(currentPageIndex);
+
   }
 }
+
 
 function nextPage() {
-  if (currentPageIndex < newsData.pages.length - 1) {
+
+  if (
+    currentPageIndex <
+    newsData.pages.length - 1
+  ) {
+
     currentPageIndex++;
+
     renderPage(currentPageIndex);
+
   }
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  renderPage(currentPageIndex);
-});
+
+document.addEventListener(
+  "DOMContentLoaded",
+  () => {
+
+    renderPage(currentPageIndex);
+
+  }
+);
