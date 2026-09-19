@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MBG MAN 2 Kudus: Suka atau Kurang Selera? - Kompas.com</title>
+  <!-- Google Fonts: Roboto & PT Serif untuk ciri khas Kompas.com -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Navigation Bar khas Kompas -->
+  <header class="navbar-kompas">
+    <div class="navbar-container">
+      <div class="logo-kompas">
+        <span class="logo-text">M2K<span class="logo-dot">.NEWS</span></span>
+      </div>
+      <div class="nav-channels">
+        <span class="channel active">EDUKASI</span>
+        <span class="channel">NEWS</span>
+        <span class="channel">REGIONAL</span>
+        <span class="channel">TRENS</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Container Utama Berita -->
+  <main class="main-wrapper">
+    <div class="article-layout">
+      
+      <!-- Breadcrumb & Kategori -->
+      <nav class="breadcrumb">
+        <a href="#">Kompas.com</a> &gt; <a href="#">Edukasi</a> &gt; <a href="#">Sekolah</a>
+      </nav>
+
+      <!-- Judul Berita -->
+      <h1 id="news-title" class="news-title">Loading...</h1>
+
+      <!-- Meta Info Penulis & Tanggal -->
+      <div class="meta-info">
+        <span class="author">M2K.NEWS</span> - <span class="date">08/09/2026, 14:00 WIB</span>
+      </div>
+
+      <!-- Lead / Ringkasan Awal -->
+      <div id="news-lead" class="lead-box"></div>
+
+      <!-- Gambar / Media Utama -->
+      <figure class="media-box">
+        <img id="page-image" src="" alt="Dokumentasi Berita">
+        <figcaption id="page-caption" class="caption"></figcaption>
+      </figure>
+
+      <!-- Judul Sub-Halaman & Isi Teks Berita -->
+      <article class="content-body">
+        <h2 id="page-heading" class="sub-title"></h2>
+        <div id="page-body" class="text-paragraphs"></div>
+      </article>
+
+      <!-- Navigasi Halaman ala Kompas (Pagination Box) -->
+      <div class="pagination-kompas">
+        <div class="pagination-header">Halaman:</div>
+        <div class="pagination-buttons">
+          <button id="btn-prev" onclick="prevPage()">&laquo; Prev</button>
+          <div id="page-numbers" class="page-numbers">
+            <!-- Disi dinamis oleh script.js -->
+          </div>
+          <button id="btn-next" onclick="nextPage()">Next &raquo;</button>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="footer-kompas">
+    <p>&copy; M2K.NEWS KUDUS. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

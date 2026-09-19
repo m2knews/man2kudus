@@ -1,0 +1,249 @@
+/* Reset & Fonts khas Kompas.com */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  color: #222222;
+  line-height: 1.6;
+}
+
+/* Navbar Kompas */
+.navbar-kompas {
+  background-color: #004b8d; /* Biru khas Kompas */
+  color: #ffffff;
+  padding: 12px 0;
+  border-bottom: 3px solid #ff7300; /* Accent oranye Kompas */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.logo-text {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.logo-dot {
+  color: #ff7300;
+}
+
+.nav-channels {
+  display: flex;
+  gap: 15px;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.nav-channels .channel {
+  cursor: pointer;
+  color: #d1e3f8;
+}
+
+.nav-channels .channel.active,
+.nav-channels .channel:hover {
+  color: #ffffff;
+  border-bottom: 2px solid #ff7300;
+}
+
+/* Layout Berita */
+.main-wrapper {
+  max-width: 800px;
+  margin: 20px auto;
+  background: #ffffff;
+  padding: 30px;
+  border: 1px solid #e2e2e2;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.breadcrumb {
+  font-size: 0.8rem;
+  color: #777777;
+  margin-bottom: 12px;
+}
+
+.breadcrumb a {
+  color: #004b8d;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+/* Judul Utama Kompas.com */
+.news-title {
+  font-family: 'PT Serif', Georgia, serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #111111;
+  margin-bottom: 10px;
+}
+
+.meta-info {
+  font-size: 0.82rem;
+  color: #666666;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 10px;
+}
+
+.meta-info .author {
+  color: #004b8d;
+  font-weight: 700;
+}
+
+/* Lead / Intro Box */
+.lead-box {
+  font-family: 'PT Serif', Georgia, serif;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #333333;
+  background-color: #f9f9f9;
+  border-left: 4px solid #ff7300;
+  padding: 15px;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+/* Photo & Caption */
+.media-box {
+  margin-bottom: 25px;
+}
+
+.media-box img {
+  width: 100%;
+  height: auto;
+  max-height: 480px;
+  object-fit: cover;
+  display: block;
+}
+
+.caption {
+  font-size: 0.8rem;
+  color: #666666;
+  background: #f1f1f1;
+  padding: 8px 12px;
+  line-height: 1.4;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Article Body Typography Kompas */
+.content-body .sub-title {
+  font-family: 'PT Serif', Georgia, serif;
+  font-size: 1.5rem;
+  color: #004b8d;
+  margin-bottom: 15px;
+}
+
+.text-paragraphs {
+  font-family: 'PT Serif', Georgia, serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #222222;
+  white-space: pre-line;
+}
+
+/* Pagination Box Kompas Style */
+.pagination-kompas {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 2px solid #004b8d;
+}
+
+.pagination-header {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.pagination-buttons {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.pagination-buttons button {
+  background: #004b8d;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.pagination-buttons button:hover:not(:disabled) {
+  background: #ff7300;
+}
+
+.pagination-buttons button:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+}
+
+.page-numbers {
+  display: flex;
+  gap: 5px;
+}
+
+.page-num {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  background: #fff;
+  font-size: 0.85rem;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.page-num.active {
+  background: #ff7300;
+  color: #fff;
+  border-color: #ff7300;
+}
+
+.page-num:hover:not(.active) {
+  background: #eeeeee;
+}
+
+/* Footer */
+.footer-kompas {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.8rem;
+  color: #777777;
+  background: #ffffff;
+  border-top: 1px solid #e2e2e2;
+  margin-top: 40px;
+}
+
+/* Responsif HP */
+@media (max-width: 600px) {
+  .news-title {
+    font-size: 1.6rem;
+  }
+  .main-wrapper {
+    padding: 15px;
+  }
+  .nav-channels {
+    display: none;
+  }
+}
