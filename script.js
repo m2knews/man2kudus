@@ -110,8 +110,7 @@ let currentPageIndex = 0;
    Repository: man2kudus
    ===================================================== */
 
-const IMAGE_BASE =
-  "https://tabahiqbalanugrah8-cmyk.github.io/man2kudus/";
+const IMAGE_BASE = "./";
 
 
 function renderPage(index) {
