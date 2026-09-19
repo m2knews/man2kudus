@@ -4,7 +4,7 @@ const newsData = {
     {
       pageNumber: 1,
       heading: "Bel Istirahat Berbunyi, Piket Bergerak Mengambil Ompreng MBG",
-      image: "image/WhatsApp Image 2026-09-01 at 7.45.38 PM.jpeg",
+      image: "WhatsApp Image 2026-09-01 at 7.45.38 PM.jpeg",
       content: `Bel istirahat pertama berbunyi, menandai waktunya siswa MAN 2 Kudus menikmati Makan Bergizi Gratis (MBG). Sebelum makanan dibagikan ke kelas, siswa yang mendapat tugas piket mengambil ompreng yang telah disiapkan di depan ruang makan boarding. Pada kesempatan yang sama, mereka juga menyerahkan hasil sedekah yang telah dikumpulkan dari teman-teman sekelas.
 
       MBG tiba di sekolah pada pagi hari, sekitar pukul 07.30–08.00 WIB, dengan jumlah makanan yang dikirim secara bertahap. Pengiriman pertama membawa sekitar 980 porsi, sedangkan pengiriman kedua sekitar 700 porsi untuk memenuhi kebutuhan siswa.
@@ -20,7 +20,7 @@ Di balik satu ompreng MBG, terdapat cerita tentang kebersamaan, penghematan uang
     {
       pageNumber: 2,
       heading: "Satu Ompreng untuk Teman, Satu Istirahat untuk Bersama",
-      image: "image/WhatsApp Image 2026-09-01 at 7.45.37 PM.jpeg",
+      image: "WhatsApp Image 2026-09-01 at 7.45.37 PM.jpeg",
       content: `Setelah ompreng sampai di kelas, siswa mulai menikmati makanan masing-masing. Sejumlah siswa terlihat duduk bersama teman sambil menyantap hidangan yang telah disediakan.
 
 Suasana kelas yang sebelumnya dipenuhi kegiatan belajar berubah menjadi lebih santai. Siswa menggunakan waktu istirahat untuk makan, berbincang, dan menikmati kebersamaan bersama teman.
@@ -38,7 +38,7 @@ Setelah waktu makan berakhir, siswa kembali melanjutkan kegiatan belajar. Sement
     {
       pageNumber: 3,
       heading: "Dari Ompreng ke Meja Kelas, MBG Diharapkan Penuhi Gizi",
-      image: "image/WhatsApp Image 2026-09-01 at 7.45.39 PM.jpeg",
+      image: "WhatsApp Image 2026-09-01 at 7.45.39 PM.jpeg",
       content: `Dari Ompreng ke Meja Kelas, MBG Diharapkan Penuhi Gizi
 
 MBG tidak hanya hadir sebagai makanan pengganjal lapar di tengah aktivitas sekolah. Makanan yang dibagikan diharapkan dapat menjadi bagian dari asupan siswa setelah mengikuti pembelajaran sejak pagi.
@@ -58,7 +58,7 @@ Bagi siswa MAN 2 Kudus, satu ompreng MBG menjadi bagian dari rutinitas yang memp
     {
       pageNumber: 4,
       heading: "Ada yang Lahap, Ada yang Kurang Selera",
-      image: "image/WhatsApp Image 2026-09-01 at 7.45.39 PM (1).jpeg",
+      image: "WhatsApp Image 2026-09-01 at 7.45.39 PM (1).jpeg",
       content: `Ada yang Lahap, Ada yang Kurang Selera
 
 Tidak semua siswa memberikan respons yang sama terhadap menu MBG. Perbedaan selera membuat makanan yang disukai seorang siswa belum tentu menjadi favorit bagi siswa lainnya.
@@ -78,7 +78,7 @@ Pada akhirnya, manfaat makanan akan lebih terasa apabila menu yang diberikan dap
     {
       pageNumber: 5,
       heading: "MBG Usai, Ompreng Kembali: Cerita Berlanjut Setelah Istirahat",
-      image: "image/WhatsApp Image 2026-09-16 at 11.24.19.jpeg",
+      image: "WhatsApp Image 2026-09-16 at 11.24.19.jpeg",
       content: `MBG Usai, Ompreng Kembali: Cerita Berlanjut Setelah Istirahat
 
 Setelah siswa selesai menikmati MBG, kegiatan tidak berhenti begitu saja. Ompreng atau rantang yang telah digunakan perlu dikembalikan sesuai jadwal yang telah ditentukan.
